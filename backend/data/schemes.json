@@ -1,0 +1,29 @@
+[
+  {
+    "id": "scheme1",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "category": "Skill Development",
+    "state": "All India",
+    "description": "Provides free skill training and certification to youth to improve employability.",
+    "eligibility": "All youth aged 18-35",
+    "keywords": ["skills", "training", "employment", "certification"]
+  },
+  {
+    "id": "scheme2",
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "category": "Agriculture",
+    "state": "All India",
+    "description": "Supports agricultural innovation, training, and entrepreneurship among rural youth.",
+    "eligibility": "Farmers and agri-entrepreneurs",
+    "keywords": ["agriculture", "farming", "rural", "innovation"]
+  },
+  {
+    "id": "scheme3",
+    "name": "Udyam Registration Scheme",
+    "category": "Entrepreneurship",
+    "state": "All India",
+    "description": "Supports small business registration and access to loans and subsidies.",
+    "eligibility": "Small business owners",
+    "keywords": ["business", "startup", "loan", "msme"]
+  }
+]
