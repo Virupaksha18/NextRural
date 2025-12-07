@@ -20,7 +20,7 @@ const ResetPassword = () => {
     }
 
     try {
-      await axios.post(`http://localhost:5000/api/auth/reset-password/${token}`, { password });
+      await axios.post(`https://nextrural.onrender.com/api/auth/reset-password/${token}`, { password });
       setMessage(t("resetPassword.success"));
       setTimeout(() => navigate("/login"), 1500);
     } catch {

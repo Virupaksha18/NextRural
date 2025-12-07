@@ -19,7 +19,7 @@ const SchemeMatcher = () => {
     setSchemes([]);
 
     try {
-      const res = await fetch("http://localhost:5000/api/match-schemes", {
+      const res = await fetch("https://nextrural.onrender.com/api/match-schemes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userInput }),
